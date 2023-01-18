@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  githubssr:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: github-ssr
+    restart: always
+    ports:
+      - 9002:9002
+    environment:
+      - GH_TOKEN=dingtianlu

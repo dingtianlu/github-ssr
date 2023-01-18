@@ -10,7 +10,9 @@ ENV PYTHONPATH=/app
 
 EXPOSE 9002
 
-CMD ["python /app/main.py"]
+ENTRYPOINT [ "python" ]
+
+CMD ["./main.py"]
 
 
 

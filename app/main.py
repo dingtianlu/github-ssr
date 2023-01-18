@@ -169,7 +169,7 @@ html_str = """
 </html>
 
 """
-HOST = '127.0.0.1'  # 监听地址，建议监听本地然后由web服务器反代
+HOST = '0.0.0.0'  # 监听地址，建议监听本地然后由web服务器反代
 PORT = 9002  # 监听端口
 ASSET_URL = 'https://hunshcn.github.io/gh-proxy'  # 主页
 #proxies = {
